@@ -1,5 +1,5 @@
 header{
-    background-color: goldenrod;
+    background-color: rgb(218, 109, 20);
     font-size: 30px;
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -11,7 +11,7 @@ header{
 header>a{
     margin-left: 80%;
     text-decoration: none;
-    color: rgb(26, 76, 117);
+    color: rgb(13, 57, 94);
     text-shadow: 1px 1px 1px rgb(85, 85, 85);
     font-weight: 600;
     font-size: 35px;
@@ -19,5 +19,21 @@ header>a{
 }
 
 header>a:hover{
-    color: rgb(70, 126, 158);
+    color: rgb(36, 83, 110);
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+#cabecalho>h1, img{
+    cursor: pointer;
+}
+
+#cabecalho>img{
+    width: 100px;
+    margin-right: 40px;
+    margin-left: 650px;
+    box-shadow: 10px 10px 10px rgb(39, 39, 39);
 }
