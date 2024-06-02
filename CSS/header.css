@@ -2,7 +2,22 @@ header{
     background-color: goldenrod;
     font-size: 30px;
     color: white;
-    text-align: center;
     text-shadow: 2px 2px 2px black;
     padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+header>a{
+    margin-left: 80%;
+    text-decoration: none;
+    color: rgb(26, 76, 117);
+    text-shadow: 1px 1px 1px rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+header>a:hover{
+    color: rgb(70, 126, 158);
 }
