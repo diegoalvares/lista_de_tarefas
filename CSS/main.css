@@ -1,3 +1,14 @@
+main{
+    width: 90%;
+    background: linear-gradient(to right, rgb(255, 255, 206), rgb(243, 243, 153));
+    border: solid 5px black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px orange;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
 #adc{
     background: linear-gradient(to right, rgb(235, 144, 25), rgb(235, 117, 39));
     color: white;
@@ -11,7 +22,7 @@
     border-radius: 15px;
     cursor: pointer;
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 20px;
     transition: 0.5s;
     box-shadow: 0px 0px 2px rgb(37, 37, 37);    
 }
@@ -22,4 +33,42 @@
 
 #adc:active{
     opacity: 1;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgb(112, 36, 17);
+    width: 89%;
+    border-radius: 60px;
+    transition: 0.5s;
+    cursor: pointer;    
+}
+
+li:hover{
+    margin-top: 20px;
+    width: 90%;
+}
+
+li>h2{
+    margin-left: 65px;
+    margin-top: -55px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#circulo{
+    width: 50px;
+    margin-top: 10px;
+}
+
+li>p{
+    margin-left: 70px;
 }
