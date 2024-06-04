@@ -64,11 +64,13 @@ li>h2{
     font-weight: 600;
 }
 
+li>p{
+    margin-left: 70px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
 #circulo{
     width: 50px;
     margin-top: 10px;
-}
-
-li>p{
-    margin-left: 70px;
 }
