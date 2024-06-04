@@ -1,0 +1,69 @@
+#bg_transparente{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    margin-top: -331px;
+    margin-left: -96px;
+}
+
+#container{
+    background-color: rgb(112, 36, 17);;
+    box-shadow: 2px 2px 20px white;
+    margin: 60px;
+    margin-top: 200px;
+    margin-left: 330px;
+    border-radius: 20px;
+    padding: 40px;
+    width: 1200px;
+}
+
+#container>h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+#container>form>input{
+    font-size: 35px;
+    width: 990px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#container>form>input::placeholder{
+    color: rgb(146, 146, 146);
+}
+
+#enviar{
+    font-size: 35px;
+    padding: 15px 455px 15px 455px;
+    background-color: rgb(8, 137, 212);
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#cancelar{
+    font-size: 35px;
+    padding: 15px 435px 15px 435px;
+    background-color: rgb(255, 1, 1);
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#enviar:hover, #cancelar:hover{
+    opacity: 0.85;
+}
